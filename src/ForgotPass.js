@@ -19,7 +19,9 @@ function ForgotPass() {
             >
                 <label style={
 
-                    { marginTop: '1em' }
+                    { marginTop: '1em' },
+                    {fontWeight:'350'},
+                    {fontSize:'small'}
                 }>
                     EMAIL
                 </label>
