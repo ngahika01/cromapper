@@ -11,7 +11,7 @@ import {
 
 function SignUp() {
 
-    function SetUserType(){
+    function SetUserType() {
 
         alert("Surprise motherfucker!!!!");
     }
@@ -23,17 +23,22 @@ function SignUp() {
 
                 <div>
                     <nav>
-                        <div id="title"><p>CROMAP</p></div>
-                        <div id="motto"><p>Improving Farm Efficiencies</p></div>
+                        <div id='header1SignUp'><p>CROMAP</p></div>
+                        <div id='header2SignUp'><p>Improving Farm Efficiencies</p></div>
                         {/* <a href="/html/">HTML</a> | */}
                     </nav>
 
                 </div>
                 <div>
                     <form>
-                        <div className="form_div">
-                            <div className="heading"><h1>Create a new Account</h1></div>
-                            <div><p>Already Registered? Log in <Link to='/login'>here</Link></p></div>
+                        <div className="motherDivSignUp">
+                            <div
+                                className="heading"
+                                id='signUpHeaderId'
+                            ><h1>Create a new Account</h1></div>
+                            <div
+                                id='divId1'
+                            ><span>Already Registered? Log in <Link to='/login'>here</Link></span></div>
                             <div id="motherSeparater">
                                 <div className="separator" style={{ marginBottom: "2em" }, { margintTop: "2em" }}>
                                     <div className="separate">
@@ -75,20 +80,67 @@ function SignUp() {
                                     </div>
 
                                 </div>
-                                <div className="separate">
-                                    <input type="checkbox" id="TnC" name="TnC" value="True" />&nbsp;&nbsp;
-                                    <label>I agree to the <a>Terms and Conditions</a>, <a>User Agreement</a> and <a>Privacy Policy</a></label>
+                                <div
+                                    className="separate"
+                                    id='TncDiv'
+                                >
+                                    <input
+                                        type="checkbox"
+                                        id="TnC"
+                                        name="TnC"
+                                        value="True"
+                                    />&nbsp;&nbsp;
+                                    <label>
+                                        I agree to the
+                                        <a>Terms and Conditions</a>,
+                                        <a> User Agreement </a>
+                                        and
+                                        <a> Privacy Policy</a>
+                                    </label>
                                 </div>
-                            </div>
+                                <div
+                                    className="separate"
+                                    id='SignUpButtonDivId'
+                                    style={
+                                        { marginBottom: "1em" }
+                                    }>
+                                    <button
+                                        style={
+                                            { borderRadius: "0.8em" }
+                                        }
+                                        type="submit"
+                                        value="submit"
+                                        className="btn btn-light login_button">
+                                        Sign Up
+                                    </button>
+                                </div>
 
-                            <div className="" style={{ marginBottom: "1em" }}> <button style={{ borderRadius: "0.8em" }} type="submit" value="submit" className="btn btn-light login_button">Sign Up</button></div>
-                            <div className=""><span id="or">OR</span></div>
-                            <div> <button className="login-with-google-btn" type="" >Continue with Google</button> </div><br />
+
+                                <div
+                                    id='orDiv'
+                                >
+                                    <span
+                                        id="or">
+                                        OR
+                                    </span>
+                                </div>
+                                <div
+                                    id='signUpPageContinueWithGoogleDivId'
+                                >
+                                    <button
+                                        id='login-with-google-btn-id'
+                                        className="login-with-google-btn "
+                                        type="" >
+                                        Continue with Google
+                                    </button>
+                                </div>
+                                <br />
+                            </div>
                         </div>
                     </form>
                 </div>
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 

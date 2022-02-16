@@ -1,11 +1,28 @@
-#motherSeparater{
-    dispay:inline-table;
+
+
+#header1SignUp{
+    position: absolute;
+    left: 0px;
+  }
+#header2SignUp{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-family: 'Open Sans';
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 600;
 }
+  
 .separator{
     display: flex;
-}
-.motherSeparater{
     width: fit-content;
+    margin: 0 auto;
+}
+#motherSeparater{
+    width: min-content;
+    margin: 0 auto;
 }
 .separate{
 padding:1em
@@ -13,9 +30,8 @@ padding:1em
 label {display: inline;
 }
 form{
-    margin-left: 20%;
-    margin-right: 20%;
-
+    margin:0 auto;
+    
 }
 .heading{
     margin:auto;
@@ -26,7 +42,7 @@ h1{
 #TnC{
     width:auto;
     height:auto;
-}
+    }
 #userType {
     background-color:#8bc34a;
     border-radius: .5em;
@@ -38,4 +54,35 @@ h1{
 .login_button {
     width: 13em;
     height: 2em;
+}
+.motherDivSignUp{
+    text-align: left;
+}
+#divId1{
+    text-align: center;
+}
+#TncDiv
+{
+    text-align: center;
+    font-size: smaller;
+}
+#SignUpButtonDivId
+{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#signUpPageContinueWithGoogleDivId{
+    width: fit-content;
+    margin: 0 auto;}
+#orDiv{
+    text-align: center;
+    margin-bottom: 1em;
+}
+#login-with-google-btn-id{
+    width: 14em;
+}
+#signUpHeaderId{
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
