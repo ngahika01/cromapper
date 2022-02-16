@@ -1,0 +1,44 @@
+.Navbar{
+    background-color: #817716;
+    display: flex;
+    z-index: 999;
+    display: flex;
+    position: relative;
+    width:100%;
+    border-bottom: .8px solid white;
+}
+
+
+.leftside_nav{
+    flex: 70%;
+    
+
+}
+
+
+
+.rightside_nav{
+flex:30%;    
+
+}
+
+
+ul{
+   list-style-type: none;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+ul>li{
+    margin:2px;
+}
+
+ul li a{
+    /* text-decoration: none; */
+    color: white;
+}
+
+.navbar_icon_div{
+    padding:1em;
+}

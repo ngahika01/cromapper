@@ -1,0 +1,41 @@
+#motherSeparater{
+    dispay:inline-table;
+}
+.separator{
+    display: flex;
+}
+.motherSeparater{
+    width: fit-content;
+}
+.separate{
+padding:1em
+}
+label {display: inline;
+}
+form{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.heading{
+    margin:auto;
+}
+h1{
+    margin:auto;
+}
+#TnC{
+    width:auto;
+    height:auto;
+}
+#userType {
+    background-color:#8bc34a;
+    border-radius: .5em;
+    border-style: none;
+    width:13em;
+    height: 2em;
+    color:white
+}
+.login_button {
+    width: 13em;
+    height: 2em;
+}

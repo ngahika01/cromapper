@@ -1,0 +1,10 @@
+h1,h3{
+    width: fit-content;
+    background-color: #fff0;
+}
+.Title_div{
+    background-color: #fff0;
+    width: fit-content;
+    position: absolute;
+    z-index: 1000;
+}
